@@ -85,7 +85,7 @@ class Zoo():
             meet_and_greet.append( a.greet()) 
         return meet_and_greet
 
-    # TODO
+
     def list_fav_foods(self):
         fav_foods=[]
         for a in self._animals:

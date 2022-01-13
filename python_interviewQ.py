@@ -1,11 +1,11 @@
-
+/** Implentation of the Zoo with its subclasses with their own specifc features **/
 
 class Animal():
     DIET = []  # The list of food that the animal can eat.
     Numb_male =0   ## class attribute
     Numb_female =0 ## class attribute
 
-    # TODO
+   
     def __init__(self, name , gender , fav_food):
         self.name= name
         self.gender = gender
@@ -78,7 +78,7 @@ class Zoo():
         self._animals = animals
         return
 
-    # TODO
+
     def meet_and_greet(self):
         meet_and_greet =[]
         for a in self._animals:
@@ -92,7 +92,7 @@ class Zoo():
             fav_foods.append(a.likes_to_eat())
         return fav_foods
 
-    # TODO
+
     def list_unique_fav_foods(self):
         unique_foods=[]
         for a in self._animals:
@@ -104,7 +104,7 @@ class Zoo():
         
         return unique_foods
 
-    # TODO
+
     def count_genders(self):
 
         for a in self._animals:

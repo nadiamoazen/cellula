@@ -1,4 +1,4 @@
-/** Implentation of the Zoo with its subclasses with their own specifc features **/
+# Implentation of the Zoo with its subclasses with their own specifc features
 
 class Animal():
     DIET = []  # The list of food that the animal can eat.
